@@ -5,6 +5,8 @@ tagline: 個人的なメモを記します
 ---
 {% include JB/setup %}
 
+個人的なメモや記録です
+
 ## Posts
 <ul class="posts">
  {% for post in site.posts %}

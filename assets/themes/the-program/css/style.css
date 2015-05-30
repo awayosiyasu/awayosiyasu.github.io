@@ -590,8 +590,14 @@ pre {
 /* HEADER
 --------------------------------------------------------------------------------- */
 .the-header .logo {
+  height: 100px;
   font-family: UbuntuMono-B, consolas, monaco, monospace;
+  background-color: white;
+  background-image: url("images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: 0;
+  text-indent: 100px;
 }
 .the-header .logo a:visited {
   color: #2d2d2d;
@@ -1481,4 +1487,13 @@ hr {
 .right {
   *display: inline;
   float: right;
+}
+
+div.body ul {
+  margin: 10;
+  padding: 0 0 0 40px;
+}
+
+div.bd .entry-content .data-publish {
+	margin-top: 10px;
 }
