@@ -1032,7 +1032,7 @@ pre {
 /*
 	Huge-screen layout 
 */
-@media only screen and (min-width: 1410px) {
+@media only screen and (min-width: 1380px) {
   .the-header {
     float: left;
     width: 19%;
@@ -1100,6 +1100,7 @@ pre {
     margin-bottom: 26px;
   }
 }
+
 pre .c {
   color: #999999;
   font-style: italic;
