@@ -28,21 +28,17 @@ hr { -moz-box-sizing: content-box; }
 .unit-inner:before,
 .unit-inner:after,
 .tag_box:before,
-.tag_box:after,
-#page:before,
-#page:after { content: ""; display: table; }
+.tag_box:after { content: ""; display: table; }
 .clearfix:after,
 .cf:after,
 .hasGrid:after,
 .unit-inner:after,
-.tag_box:after,
-#page:after { clear: both; }
+.tag_box:after { clear: both; }
 .clearfix,
 .cf,
 .hasGrid,
 .unit-inner,
-.tag_box,
-#page { *zoom: 1; }
+.tag_box { *zoom: 1; }
 .left {
 	*display: inline;
 	float: left;

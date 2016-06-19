@@ -42,8 +42,8 @@ Font families
 No styleguide reference.
 */
 
-@font-stack: consolas, monaco, monospace;
-@webfont: UbuntuMono-B, consolas, monaco, monospace;
+@font-stack: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+@webfont: junctionregularRegular, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
 
 /*
 Base font size should be larger than 16px.
@@ -60,34 +60,49 @@ body {
 
 /*
 Font size setting
-Using Golden ratio section
-http://modularscale.com/scale/?px1=16&px2=30&ra1=1.618&ra2=0
+Using Golden ratio section (Caliculated via http://j.mp/sB6oxM):
+109.657	6.854	843.515 * h1
+82.241	5.14	632.623
+67.773	4.236	521.331
+50.829	3.177	390.992
+41.887	2.618	322.208 * h2
+31.415	1.963	241.654
+25.888	1.618	199.138 * h3
+19.416	1.214	149.354 * h4
+16.000	1	    123.077 * Base font size
+12.000	0.75	92.308  * Minimum font size
+Vertical Rhythm is caluculated via http://j.mp/sUvKuN
 
 No styleguide reference.
 */
 
-h1, h2, h3, h4, h5, h6 { font-family: @webfont; }
+h1, h2, h3, h4, h5, h6 {
+	font-family: @webfont;
+	font-weight: bold;
+}
 
 h1, .h1 {
-	font-size: 30px;
+	font-size: 42px;
 	line-height: 52px;
 	margin-top: 52px;
 	margin-bottom: 26px;
+	letter-spacing: -1px;
 }
 h2, .h2 {
-	font-size: 30px;
+	font-size: 42px;
 	line-height: 52px;
 	margin-top: 52px;
 	margin-bottom: 26px;
+	letter-spacing: -1px;
 }
 h3, .h3 {
-	font-size: 25.888px;
+	font-size: 26px;
 	line-height: 26px;
 	margin-top: 26px;
 	margin-bottom: 26px;
 }
 h4, .h4 {
-	font-size: 18.541px;
+	font-size: 20px;
 	line-height: 26px;
 	margin-top: 26px;
 	margin-bottom: 26px;
@@ -148,20 +163,21 @@ No styleguide reference.
 
 // Texture
 
-@noise-100-90-5: "/assets/themes/the-program/skin/100-90-5-monochrome.png"; // http://noisepng.com/
+@noise-100-90-5: "/assets/themes/the-minimum/skin/100-90-5-monochrome.png"; // http://noisepng.com/
 @cross-hair: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAR0lEQVQYGYVOQQoAIAizHuJXpafqR4wFCw9Ggji2OSbubpkp3UI7Qmcidz9JIKniAYITEQasqovcJHhelquxFf9LVjfTeKFtWPOYLQ+xHqUAAAAASUVORK5CYII="; // http://ptrn.it/AmYV5d
 
-/* COMFORTAA Font
- * http://www.fontsquirrel.com/fonts/Comfortaa
+/* Junction Font
+ * http://www.theleagueofmoveabletype.com/
+ * Using for Logo and headers
 */
 
 @font-face {
-    font-family: 'UbuntuMono-B';
-    src: url('/assets/themes/the-program/font/UbuntuMono-B-webfont.eot');
-    src: url('/assets/themes/the-program/font/UbuntuMono-B-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/themes/the-program/font/UbuntuMono-B-webfont.woff') format('woff'),
-         url('/assets/themes/the-program/font/UbuntuMono-B-webfont.ttf') format('truetype'),
-         url('/assets/themes/the-program/font/UbuntuMono-B-webfont.svg#UbuntuMono-B') format('svg');
+    font-family: 'junctionregularRegular';
+    src: url('/assets/themes/the-minimum/font/Junction-webfont.eot');
+    src: url('/assets/themes/the-minimum/font/Junction-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/the-minimum/font/Junction-webfont.woff') format('woff'),
+         url('/assets/themes/the-minimum/font/Junction-webfont.ttf') format('truetype'),
+         url('/assets/themes/the-minimum/font/Junction-webfont.svg#junctionregularRegular') format('svg');
     font-weight: normal !important;
     font-style: normal;
 }
