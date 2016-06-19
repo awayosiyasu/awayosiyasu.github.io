@@ -18,7 +18,7 @@ Font families
 No styleguide reference.
 */
 /*
-sBase font size should be larger than 16px.
+Base font size should be larger than 16px.
 Calculation should be done via  http://j.mp/rNg5uA
 
 No styleguide reference.
@@ -27,7 +27,7 @@ body {
 /*
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
 */
-  font-family: Verdana, sans-serif; font-size: 12px; color:#484848; margin: 0; padding: 0; mifn-width: 300px;
+  font-family: Verdana, sans-serif; font-size: 12px; color:#484848; margin: 0; padding: 0; min-width: 900px;
   font-size: 1em;
   line-height: 1.625em;
 }
@@ -54,36 +54,34 @@ h3,
 h4,
 h5,
 h6 {
-/*
   font-family: junctionregularRegular, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
-*/
   font-weight: bold;
 }
 h1, .h1 {
-  font-size: 34px;
-  line-height: 42px;
-  margin-top: 42px;
-  margin-bottom: 21px;
+  font-size: 42px;
+  line-height: 52px;
+  margin-top: 52px;
+  margin-bottom: 26px;
   letter-spacing: -1px;
 }
 h2, .h2 {
-  font-size: 34px;
-  line-height: 42px;
-  margin-top: 42px;
-  margin-bottom: 21px;
+  font-size: 42px;
+  line-height: 52px;
+  margin-top: 52px;
+  margin-bottom: 26px;
   letter-spacing: -1px;
 }
 h3, .h3 {
-  font-size: 24px;
-  line-height: 28px;
-  margin-top: 29px;
-  margin-bottom:21px;
+  font-size: 26px;
+  line-height: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 h4, .h4 {
   font-size: 20px;
-  line-height: 24px;
-  margin-top: 24px;
-  margin-bottom: 20px;
+  line-height: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 p,
 ul,
@@ -285,63 +283,6 @@ pre {
 .unit-article .entry-content:first-child h6 {
   margin-top: 0;
 }
-
-
-.unit-article header h1 {
-  color: #2d2d2d;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.unit-article .entry-content h2,
-.unit-article .entry-content h3,
-.unit-article .entry-content h4,
-.unit-article .entry-content h5,
-.unit-article .entry-content h6 {
-  color: #2d2d2d;
-}
-
-/* 20160619 追加 */
-
-.unit-article .entry-content h1 {
-  border-style: double;
-  border-color: navy;
-  color: blue;
-  text-align: left;
-  padding: 2pt;
-}
-.unit-article .entry-content h2 {
-  color: #0033ff;
-  border-bottom: double navy;
-  padding: 3pt;
-}
-.unit-article .entry-content h3 {
-  color: black;
-  border-left: solid navy;
-  border-bottom: solid thin navy;
-  padding: 2pt;
-  padding-left: 0.5em;
-  margin-right: 10%;
-  margin-left: 0.3em;
-}
-.unit-article .entry-content h4 {
-  color: #3366ff;
-  border-bottom: dashed thin navy;
-  padding: 1pt;
-  margin-right: 20%;
-  margin-left: 0.6em;
-}
-.unit-article .entry-content h5,
-.unit-article .entry-content h6 {
-  color: darkred;
-  font-size: 100%;
-  margin-left: 0.6em;
-  margin-bottom: 0em;
-}
-.unit-article .entry-content ul {
-  margin-left: 2em;
-}
-
-
 .unit-article a:link {
   border-bottom: 1px dotted #99cc99;
 }

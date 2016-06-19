@@ -27,7 +27,7 @@ body {
 /*
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
 */
-  font-family: Verdana, sans-serif; font-size: 12px; color:#484848; margin: 0; padding: 0; mifn-width: 300px;
+  font-family: Verdana, sans-serif; font-size: 12px; color:#484848; margin: 0; padding: 0; min-width: 900px;
   font-size: 1em;
   line-height: 1.625em;
 }
@@ -74,16 +74,16 @@ h2, .h2 {
   letter-spacing: -1px;
 }
 h3, .h3 {
-  font-size: 24px;
-  line-height: 28px;
-  margin-top: 29px;
-  margin-bottom:21px;
+  font-size: 21px;
+  line-height: 21px;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 h4, .h4 {
-  font-size: 20px;
-  line-height: 24px;
-  margin-top: 24px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 21px;
+  margin-bottom: 18px;
 }
 p,
 ul,
