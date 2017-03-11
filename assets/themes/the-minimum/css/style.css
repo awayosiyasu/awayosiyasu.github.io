@@ -91,7 +91,7 @@ ol,
 dl,
 img {
   margin-top: 0;
-  margin-bottom: 1.625em;
+  margin-bottom: 0.5em;
 }
 small, .small, aside {
   font-size: 0.75em;
@@ -321,26 +321,53 @@ pre {
   padding: 2pt;
   padding-left: 0.5em;
   margin-right: 10%;
-  margin-left: 0.3em;
+  #margin-left: 0.3em;
 }
 .unit-article .entry-content h4 {
   color: #3366ff;
   border-bottom: dashed thin navy;
   padding: 1pt;
   margin-right: 20%;
-  margin-left: 0.6em;
+  #margin-left: 0.6em;
 }
 .unit-article .entry-content h5,
 .unit-article .entry-content h6 {
   color: darkred;
   font-size: 100%;
-  margin-left: 0.6em;
+  #margin-left: 0.6em;
   margin-bottom: 0em;
 }
 .unit-article .entry-content ul {
   margin-left: 2em;
 }
 
+.unit-article .entry-content ol {
+  margin-left: 2em;
+}
+
+.unit-article .entry-content table {
+    border-spacing:0;
+    border:solid 1px;
+    margin-bottom: 1em;
+    border-radius:5px;
+}
+
+.unit-article .entry-content th {
+    border-right:solid 1px;
+}
+
+.unit-article .entry-content th:last-child {
+    border-right:none;
+}
+
+.unit-article .entry-content td{
+    border-top:solid 1px;
+    border-right:solid 1px;
+}
+
+.unit-article .entry-content td:last-child {
+    border-right:none;
+}
 
 .unit-article a:link {
   border-bottom: 1px dotted #99cc99;
@@ -817,6 +844,7 @@ pre {
 /*
 	Not that old computer layout 
 */
+@media print,
 @media only screen and (min-width: 1280px) {
   .the-header .unit-inner {
     width: 60em;
