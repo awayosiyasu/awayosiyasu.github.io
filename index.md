@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: 職業大OBラン＆懇親会
 tagline: 個人的なメモを記します
 ---
 {% include JB/setup %}
