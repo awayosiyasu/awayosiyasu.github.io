@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 職業大OBラン＆懇親会
+title: Yasuhiro Yoshikawa's Blog
 tagline: 個人的なメモを記します
 ---
 {% include JB/setup %}

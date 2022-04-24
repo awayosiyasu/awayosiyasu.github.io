@@ -11,7 +11,7 @@ highlighter: rouge
 title : Y.Yoshikawa Blog
 #tagline: Site Tagline
 author :
-  name : Yasuhiro Yoshikawa
+  # name : Yasuhiro Yoshikawa
   # email : awayosiyasu@gmail.com
   github : awayosiyasu
   twitter : awa_yosi_yasu
