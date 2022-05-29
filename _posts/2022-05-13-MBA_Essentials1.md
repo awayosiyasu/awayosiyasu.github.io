@@ -1,0 +1,9 @@
+---
+layout: post
+title: [MBA Essentials] 第1回 MBAイントロダクション春〜新市場を創る
+tags: learning
+category: 
+---
+### [MBA Essentials] 第1回 MBAイントロダクション春〜新市場を創る
+## 1. 全体説明
+## 2. 
