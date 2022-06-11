@@ -1,8 +1,8 @@
 ---
 layout: post
 title: データベース特別講義
-tags: learning
-category: memo
+tags: データベース
+category: 学習, セミナー
 ---
 ### データベースの勉強(Chapter1)
 ## 1. 用語
