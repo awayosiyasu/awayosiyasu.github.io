@@ -1,0 +1,65 @@
+I"�<h3 id="データベースの勉強chapter1">データベースの勉強(Chapter1)</h3>
+<h2 id="1-用語">1. 用語</h2>
+<ul>
+  <li>superkey
+    <ul>
+      <li>Tupple を特定するキーの組み合わせ</li>
+    </ul>
+  </li>
+  <li>candidate key
+    <ul>
+      <li>superkey のうち一番小さい組み合わせ</li>
+      <li>candidate key が複数ある場合は primary key を指定する</li>
+    </ul>
+  </li>
+  <li>Relation are Unordered</li>
+  <li>Relation Query Languages
+    <ul>
+      <li>Procedural versus non-procedural</li>
+    </ul>
+  </li>
+  <li>Relational Algebra 関数代数
+    <ul>
+      <li>離散数学：値と演算子を考える</li>
+      <li>Select Operation</li>
+    </ul>
+  </li>
+  <li>Select Operation
+    <ul>
+      <li>σ Select: predicates 自体を and , or, not でつなぐことができる</li>
+      <li>^ v not</li>
+    </ul>
+  </li>
+  <li>Project Operation
+    <ul>
+      <li>instructor</li>
+      <li>Composition of Relational Operations</li>
+    </ul>
+  </li>
+  <li>Cartesian-Product Operation
+    <ul>
+      <li>掛け算： 集合の要素自体</li>
+      <li>今後の味噌になる</li>
+    </ul>
+  </li>
+  <li>Join Operation
+    <ul>
+      <li>σ　instructor.id=teaches.id (instructor x teaches)</li>
+      <li>Join のオペレータを交えて書くことができる</li>
+    </ul>
+  </li>
+  <li>Set-Intersection Operation</li>
+  <li>Set Difference Operation
+    <ul>
+      <li>減算：</li>
+    </ul>
+  </li>
+  <li>Assignment Operation(変数に入れる)</li>
+  <li>The Rename Operation
+    <ul>
+      <li>identical: 一字一句同じ</li>
+      <li>equivalent: 同値（結果的には同じ）</li>
+    </ul>
+  </li>
+</ul>
+:ET
